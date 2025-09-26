@@ -20,6 +20,7 @@ pipeline {
                     } else {
                         echo "No changes in backend/"
                     }
+                }
             }
         }
         stage('Frontend change') {
